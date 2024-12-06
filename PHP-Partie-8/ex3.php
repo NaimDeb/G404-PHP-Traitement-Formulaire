@@ -29,6 +29,8 @@
             if (isset($_POST["password"])){
                 setcookie("password", $_POST["password"]);
             }
+
+            
             if (isset($_COOKIE["login"])){
                 echo "<p>🖥️ Nom d'utilsateur : " . htmlspecialchars($_COOKIE["login"]) . "</p>";
             }
